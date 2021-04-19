@@ -20,6 +20,7 @@ tramite un metodo exists e se una coppia di nodi è connessa da un arco
 tramite un metodo hasEdge. Nell’esempio in figura, exists(‘9’)=false, 
 hasEdge(‘1’,‘2’)=true, hasEdge(‘4’,‘3’)=false.Possono essere trascurate considerazioni di efficienza di accesso ai dati e di 
 occupazione di memoria.
+
 Utilizzare dove opportuno la gestione degli errori tramite asserzioni o eccezioni.
 Nota 1: Se non indicato diversamente, nella progettazione della classe, è 
 vietato l'uso di librerie esterne e strutture dati container della std library come 
